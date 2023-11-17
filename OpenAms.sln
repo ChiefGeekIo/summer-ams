@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ams.Application", "Ams.Application\Ams.Application.csproj", "{3AAA1627-FC5A-4438-AFF8-4627B888B6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ams.Common", "Ams.Common\Ams.Common.csproj", "{6C634DEE-D073-4A42-B51D-D5FFDA54CF20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ams.Database", "Ams.Database\Ams.Database.csproj", "{CCC562C4-47AF-4281-A3CE-1894EAE9AAF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AAA1627-FC5A-4438-AFF8-4627B888B6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAA1627-FC5A-4438-AFF8-4627B888B6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAA1627-FC5A-4438-AFF8-4627B888B6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAA1627-FC5A-4438-AFF8-4627B888B6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C634DEE-D073-4A42-B51D-D5FFDA54CF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C634DEE-D073-4A42-B51D-D5FFDA54CF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C634DEE-D073-4A42-B51D-D5FFDA54CF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C634DEE-D073-4A42-B51D-D5FFDA54CF20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC562C4-47AF-4281-A3CE-1894EAE9AAF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC562C4-47AF-4281-A3CE-1894EAE9AAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC562C4-47AF-4281-A3CE-1894EAE9AAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC562C4-47AF-4281-A3CE-1894EAE9AAF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
