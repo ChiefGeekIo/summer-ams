@@ -8,8 +8,14 @@ public class AuthenticateController : BaseController
 {
     private readonly ILogger<AuthenticateController> _logger;
 
-    public AuthenticateController(ILogger<WeatherForecastController> logger)
+    public AuthenticateController(ILogger<AuthenticateController> logger)
     {
         _logger = logger;
+    }
+
+    [HttpGet]
+    public string Get()
+    {
+        return "This is here.";
     }
 }
